@@ -1,10 +1,13 @@
-import {NextUIProvider} from "@nextui-org/react";
-
 export default function Home() {
   return (
-    <NextUIProvider>
+    <>
       <h1>Hello world!</h1>
       <p>Here movies</p>
-    </NextUIProvider>
+      <div className="flex justify-between">
+        <div>Obj1</div>
+        <div>Obj2</div>
+        <div>Obj3</div>
+      </div>
+    </>
   );
 }
